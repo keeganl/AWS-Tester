@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
-    name   : "app1",
-    script : "./app.js"
+    name   : "AWS-Tester",
+    script : "./index.js"
   }],
   deploy: {
     production: {
