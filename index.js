@@ -5,7 +5,7 @@
 // app.listen(3000, () => console.log('Server running on port 3000'))
 
 var app = require('express')();
-var http = require('http').Server(app);
+//var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 app.use(express.static('public'))
