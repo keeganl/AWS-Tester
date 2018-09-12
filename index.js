@@ -19,7 +19,7 @@ server.listen(port, () => {
 });
 
 // Routing
-app.use(express.static('public')));
+app.use(express.static('public'));
 
 // Chatroom
 
